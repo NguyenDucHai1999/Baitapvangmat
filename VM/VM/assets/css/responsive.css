@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 768px) {
+    .slides .owl-carousel .text {
+        display: none;
+    }
+    #ngd{
+        width: auto !important;
+        height: auto !important;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .bt {
+        width: 250px;
+    }
+    .name .img {
+        width: 200px;
+        height: 275px;
+        margin: auto;
+    }
+    .name .img img {
+        object-fit: cover;
+    }
+    .name .d-flex p {
+        font-size: 25px;
+    }
+    .new .d-flex span {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) { 
+#header{
+    display: none;
+}
+#hd-mobile{
+    display: block;
+}
+.img .texts {
+	display: none;
+}
+.header-top {
+    display: none;
+}
+
+}
